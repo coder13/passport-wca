@@ -1,38 +1,42 @@
 {
+  "name": "passport-wca",
+  "version": "1.0.3",
+  "description": "WCA authentication strategy for Passport.",
+  "homepage": "https://github.com/coder13/passport-wca#readme",
+  "keywords": [
+    "passport",
+    "oauth",
+    "wca",
+    "cubing"
+  ],
   "author": {
     "name": "Caleb Hoover",
     "email": "choover11@gmail.com"
   },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/coder13/passport-wca.git"
+  },
   "bugs": {
     "url": "https://github.com/coder13/passport-wca/issues"
   },
-  "bundleDependencies": false,
+  "license": "ISC",
+  "main": "./lib",
   "dependencies": {
     "passport-oauth2": "1.x.x"
   },
-  "deprecated": false,
-  "description": "WCA authentication strategy for Passport.",
   "devDependencies": {
     "chai": "^4.1.2",
     "mocha": "^4.0.1",
     "vows": "0.8.x"
   },
-  "homepage": "https://github.com/coder13/passport-wca#readme",
-  "license": "ISC",
-  "main": "./lib",
   "maintainers": [
     {
       "name": "choover11",
       "email": "choover11@gmail.com"
     }
   ],
-  "name": "passport-wca",
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/coder13/passport-wca.git"
-  },
   "scripts": {
     "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js"
-  },
-  "version": "1.0.3"
+  }
 }
